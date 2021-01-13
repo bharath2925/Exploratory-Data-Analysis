@@ -12,6 +12,7 @@ pwr_filt$Global_active_power<- as.numeric(as.character(pwr_filt$Global_active_po
 #Plot the graph
 hist(pwr_filt$Global_active_power
      , col = "red"
+     , type = "n"
      , xlab = "Global Active Power (kilowatts)"
      , ylab = "Frequency"
      , main = "Global Active Power"
